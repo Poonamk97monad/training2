@@ -26,7 +26,9 @@ div#content {
 }
 aside{
    margin: 5px;
-  padding: 10px;
+  padding: 50px;
+  
+  align-content: center;
   background-color: white;
 }
 
@@ -34,7 +36,7 @@ a:link, a:visited {
   background-color:#00BFFF;
   color: white;
   padding: 15px 25px;
-  text-align: center;
+ 
   text-decoration: none;
   display: inline-block;
 }
@@ -47,32 +49,43 @@ a:hover, a:active {
 </head>
 <body>
 <div id="header">
-  <h1>Monday Times</h1>
+  <h1>Welcome</h1>
 </div>
   <div id="content">
-  <aside> 
-        <figure>
-        <img src="pic/img.jpeg" alt="vdf" >
-        </figure>
-  </aside>
-   <aside>
+       <div id="content">
+
+        <figure style="margin-left: 3%;">
+        <img src="pic/img.jpeg" alt="vdf" style="width: 30%;" >
+        
+        <video width="40%" controls style="margin-left:25%;">
+        <source src="pic/Tom & Jerry.mp4" type="video/mp4">
+        <source src="mov_bbb.ogg" type="video/ogg">
+        Your browser does not support HTML5 video.
+      </video>
+      </figure>
+      </div>
+   <center>
+   <aside >
      <form>
      <label>Name:</label>
      <input type="text" name="username" placeholder="abc@gmail.com">
      <br>
+     <br>
      <label>Password:</label>
      <input type="password" name="password">
+     <br>
      <br>
      <input type="submit" name="login" value="Login">
      </form>
      <br>
+     <br>
+     <br>
      <a href="regetation.html">Regetation</a>
    </aside>
-</div>
-
+</center>
 <div id="footer">
-  <p>&copy; 2014 Monday Times. All rights reserved.</p>
+  <p>&copy; 2019 All rights reserved.</p>
 </div>
-
+</div>
 </body>
 </html>
